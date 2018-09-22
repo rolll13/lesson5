@@ -8,7 +8,7 @@ def game(n, k):
         try:
             num = int(input("Введите число: "))
         except (ValueError, UnboundLocalError):
-            print("Это не число")
+            print("Это не число, -1 попытка")
         else:
             if num == random_num:
                 print("Вы угадали")
